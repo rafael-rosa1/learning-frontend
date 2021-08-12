@@ -1,0 +1,41 @@
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+header {
+    background: #AA0000;
+}
+
+.box-header {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagem-header {
+    width: 30%;
+    display: inline;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
