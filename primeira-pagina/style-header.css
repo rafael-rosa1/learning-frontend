@@ -19,7 +19,7 @@ header {
 
 nav {
     position: absolute;
-    right: 0;
+    right: -50px;
     top: 140px;
 }
 
@@ -28,6 +28,7 @@ nav a {
     color: yellow;
     font-size: 1.5em;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -39,3 +40,23 @@ ul li {
     margin-right: 1em;
 }
 
+footer {
+    background: #AA0000;
+    text-align: center;
+    background: url("livros-antigos.jpg");
+    height: 150px;
+}
+
+.texto-rodape {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    transition: 1s;
+    display: contents;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.texto-rodape:hover {
+    color: yellow;
+    text-shadow: 1px 1px 1px #000000;
+}
