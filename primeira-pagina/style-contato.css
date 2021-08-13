@@ -1,0 +1,43 @@
+form {
+    width: 940px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label, form legend {
+    font-size: 1.5em;
+    display: block;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+fieldset select {
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin-bottom: 2em;
+}
+
+.enviar {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    width: 50%;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: yellow;
+    cursor: pointer;
+    background: #AA0000;
+    border: none;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+}

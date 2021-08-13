@@ -60,3 +60,9 @@ footer {
     color: yellow;
     text-shadow: 1px 1px 1px #000000;
 }
+
+.titulo-principal {
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+}

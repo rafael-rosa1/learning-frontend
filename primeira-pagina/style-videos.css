@@ -1,0 +1,36 @@
+.videos-inicio, .podcasts-inicio {
+    width: 940px;
+    margin: 10px auto;
+    border: 2px solid #AA0000;
+    text-align: center;
+    padding: 1em;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-bottom: 1em auto;
+}
+
+.videos-inicio ul li {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.podcasts-inicio p{
+    margin: 1em auto;
+}
+
+.podcasts-inicio a {
+    font-size: 1.5em;
+    color: #AA0000;
+    text-decoration: none;
+}
+
+.podcasts-inicio a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.podcast-descrição {
+    font-size: 1.3em;
+}
