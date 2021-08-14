@@ -48,11 +48,11 @@ footer {
 }
 
 .texto-rodape {
+    padding: 0.3em;
     font-size: 1.5em;
     font-weight: bold;
     color: white;
     transition: 1s;
-    display: contents;
     text-shadow: 1px 1px 1px #000000;
 }
 
