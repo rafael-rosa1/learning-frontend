@@ -34,3 +34,29 @@ iframe {
 .podcast-descrição {
     font-size: 1.3em;
 }
+
+.videos-inicio iframe {
+    width: 60%;
+}
+
+@media screen and (max-width:480px) {
+    .videos-inicio, .podcasts-inicio {
+        width: auto;
+    }
+
+    .videos-inicio ul li{
+        font-size: 1em;
+        line-height: 3;
+    }
+
+    .podcast-descrição {
+        font-size: 1em;
+    }
+
+    .videos-inicio iframe {
+        width: auto;
+    }
+    .titulo-principal {
+        font-size: 2em;
+    }
+}

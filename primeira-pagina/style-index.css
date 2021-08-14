@@ -87,3 +87,15 @@ body {
 .mlendo:hover {
     opacity: 0.5;
 }
+
+@media screen and (max-width:480px) {
+    .introducao, .proposito, .lista-imagens, .lista-proposito {
+        width: auto;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+  
+    .hlendo, .mlendo{
+        width: 15%;
+    }   
+}

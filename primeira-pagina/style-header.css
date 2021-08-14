@@ -66,3 +66,23 @@ footer {
     text-align: center;
     margin: 1em;
 }
+
+@media screen and (max-width:480px) {
+
+    .box-header, footer {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        font-size: 0.5em;
+    }
+
+    .texto-rodape {
+        font-size: 1em;
+    }
+}

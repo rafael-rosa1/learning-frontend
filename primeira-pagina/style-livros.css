@@ -32,3 +32,18 @@ body {
     margin: 0 30px 30px 0;
     vertical-align: top;
 }
+
+@media screen and (max-width:480px) {
+    .livros-autor {
+        width: auto;       
+    }
+
+    .livros-autor div {
+        display: block;
+        width: auto;
+    }
+
+    .titulo-principal {
+        font-size: 1.5em;
+    }
+}
