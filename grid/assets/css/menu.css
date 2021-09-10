@@ -2,7 +2,3 @@
   color: #333333;
   padding: .5rem 1rem;
 }
-
-.menu__link:hover, .ativo {
-  border-bottom: 2px solid #0073E6;
-}
